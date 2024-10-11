@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #f3e2fe;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-weight: 800px;
+  font-size: 30px;
+  position: absolute;
+  top: 15%;
+  left: 36%;
+
+}
+
+button {
+border-radius: 50%;
+height: 200px;
+width: 200px;
+color: white;
+font-weight: 600;
+font-size: large;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: black;
+
+
+}
+
+button:hover {
+  background-color: yellow;
+  transition: all 0.3s ease-in;
+  box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+  color: black;
+}
+#display {
+  top: 30%;
+  left: 30%;
+  height: 200px;
+  width: 680px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  
+}
+
+#rock {
+  background-image: url(3313783-middle.png);
+  background-position-x: -80px;
+  background-size: cover;
+  
+}
+
+#scicors {
+  background-image: url(428-4288836_your-hand-hand-clipart-png-rock-paper-scissors.png);
+  background-position-x: -65px;
+  background-size: cover;
+}
+
+#paper {
+  background-image: url(3313779-middle\ \(1\).png);
+  background-position-x: -80px;
+  background-size: cover;
+
+}
+
+h2 {
+  position: absolute;
+  left: 60px;
+  color: white;
+  top: 10px;
+  
+}
+
+#outputdiv {
+  height: 350px;
+  width: 300px;
+  background-color: blueviolet;
+  position: absolute;
+  left: 40.5%;
+  top: 60%;
+  border-radius: 15px;
+  box-shadow :rgb(38,57,77) 0px 20px 30px -10px;
+}
+
+#results {
+  position: absolute;
+  top: 40%;
+  left: 30px;
+}
+
+input {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  color: black;
+  font-size: 18px;
+  outline: none;
+  font-weight: 600;
+}
+
+p{
+  position: absolute;
+  left: 101px;
+  top: 75%;
+  font-size: 18px;
+  color: yellow;
+  font-weight: 500;
+  
+}
+
+#nextButtonId {
+  height: 40px;
+  width: 150px;
+
+}
+
+#reset {
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  left: 30px;
+  top: 450px;
+  border-radius: 20px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>THE ROCK PAPER SCISSOR</h1>
+
+    <div id="display">
+      <button id="rock" onclick="systemOutputOnClickRock()"></button>
+
+      <button id="scicors" onclick="systemOutputOnClickScissors()"></button>
+
+      <button id="paper" onclick="systemOutputOnClickPaper()"></button>
+    </div>
+
+    <div hidden id="outputdiv"></div>
+    
+      <!-- <button id="clearButton" onclick="clear()">Next Guess</button> -->
+    
+<div id="results">
+    <span style="color: black; font-size: 18px;">WIN : <input id="win" type="number" readonly></span>
+    <span style="color: black; font-size: 18px;">LOSS : <input id="loss" type="number" readonly></span>
+    <span style="color: black; font-size: 18px;">TIE : <input id="tie" type="number" readonly></span>
+</div>
+
+<button id="reset" onclick="reset()">Reset</button>
+  </body>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="game.css" />
+</html>
