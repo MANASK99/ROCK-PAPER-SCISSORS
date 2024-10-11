@@ -148,6 +148,7 @@ p{
     height: 80px;
     position: absolute;
     left: 30px;
+    top: 180px;
   }
   #rock {
     background-image: url(3313783-middle.png);
@@ -172,13 +173,13 @@ p{
   #results {
     position: absolute;
     left: 85px;
-    top: 370px;
+    top: 330px;
   }
 
   #outputdiv {
     position: absolute;
     left: 60px;
-    top: 420px;
+    top: 4200px;
   }
 
   #reset {
