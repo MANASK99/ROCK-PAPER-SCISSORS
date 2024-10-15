@@ -132,6 +132,8 @@ p{
 }
 
 @media screen and (max-width: 1440px) {
+  body {height: 900px;}
+  
   button{
     height: 80px;
     width: 80px;
