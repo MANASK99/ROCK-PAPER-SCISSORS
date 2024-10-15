@@ -132,7 +132,6 @@ p{
 }
 
 @media screen and (max-width: 1440px) {
-  body {height: 900px;}
   
   button{
     height: 80px;
@@ -181,7 +180,7 @@ p{
   #outputdiv {
     position: absolute;
     left: 60px;
-    top: 400px;
+    top: 20px;
   }
 
   #reset {
